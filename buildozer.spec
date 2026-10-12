@@ -1,6 +1,6 @@
 [app]
 
-title = Aqar AS
+title = عقار AS
 
 package.name = aqaras
 
@@ -12,19 +12,11 @@ source.include_exts = py,png,jpg,jpeg,kv,atlas
 
 version = 0.1.0
 
-requirements = python3,kivy
+requirements = python3,kivy,openpyxl
 
 orientation = portrait
 
 fullscreen = 0
-
-[buildozer]
-
-log_level = 2
-
-warn_on_root = 1
-
-[app:android]
 
 android.permissions = INTERNET
 
@@ -35,3 +27,10 @@ android.minapi = 23
 android.archs = arm64-v8a
 
 android.accept_sdk_license = True
+
+
+[buildozer]
+
+log_level = 2
+
+warn_on_root = 1
